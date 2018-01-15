@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Luis Segovia">
@@ -7,8 +8,95 @@
     <meta name="keywords" content="gastronomia, framework, foundation">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
     <title>Blog de Gastronomía</title>
+
+    <link rel="stylesheet" href="css/foundation.min.css">
+
+    <link rel="stylesheet" href="css/app.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
 </head>
+
 <body>
-    
+
+    <div class="row">
+        <sidebar class="medium-4 small-12 columns">
+            <header class="text-center pt20">
+                <h1><strong>El Rincón del Sabor</strong></h1>
+                <h5>Tu lugar ideal</h5>
+            </header>
+            <nav class="pt20">
+                <div>
+                    <div class="input-group">
+                        <span class="input-group-label"><i class="fas fa-search"></i></span>
+                        <input class="input-group-field" type="search" placeholder="Buscar por">
+                    </div>
+                </div>
+                <ul class="vertical menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Mi plato perfecto</a></li>
+                    <li><a href="#">Mis recetas</a></li>
+                </ul>
+                <div class="hide-for-small-only">
+                    <div class="pt20">Favoritos:</div>
+                    <ul class="row no-bullet">
+                        <li class="columns small-4 pt20"><a href="#"><img class="" src="img/favorito1.jpg" alt=""></a></li>
+                        <li class="columns small-4 pt20"><a href="#"><img src="img/favorito2.jpg" alt=""></a></li>
+                        <li class="columns small-4 pt20"><a href="#"><img src="img/favorito3.jpg" alt=""></a></li>
+                        <li class="columns small-4 pt20"><a href="#"><img src="img/favorito4.png" alt=""></a></li>
+                        <li class="columns small-4 pt20"><a href="#"><img src="img/favorito5.jpg" alt=""></a></li>
+                        <li class="columns small-4 pt20"><a href="#"><img src="img/favorito6.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="hide-for-small-only">
+                    <div>Historial</div>
+                    <ul class="vertical menu">
+                        <li><a href="#">Arroz con Pollo</a></li>
+                        <li><a href="#">Carapulcra</a></li>
+                        <li><a href="#">Lomo Saltado</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </sidebar>
+        <section class="medium-8 small-12 columns pt20">
+            <article class="card">
+               <div class="card-section">
+                <h2>Ceviche Peruano</h2>
+                <div class="date">25/01/2018</div>
+                </div>
+                <div class="card-image"><img src="img/ceviche.jpg" alt="Ceviche"></div>
+                <div class="card-section">
+                    <p>El ceviche peruano de pescado es una de las comidas más deliciosas que ha podido inventar el ser humano durante su existencia.
+
+Ya sea de pescado, de conchas, mariscos o mixto, el ceviche peruano no sólo ha estado presente en la mesa como maestro de ceremonias para todos aquellos que quieren degustar la magnífica gastronomía del país latinoamericano, este plato se ha convertido en un manjar internacional, en una delicia de miles de hogares latinoamericanos (y más allá) quienes, antes de servir la comida principal, preparan  “un cevichito de entrada, para compartir”.</p>
+                </div>
+                <div class="row card-section">
+                    <div class="small-2 medium-1 columns"><img class="img-circle" src="img/user1.jpg" alt="Perfil"></div>
+                    <div class="small-10 medium-11 columns"><textarea name="comentario">Comentario</textarea></div>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-section">
+                    <h2>Anticucho Limeño</h2>
+                    <div class="date">25/01/2018</div>
+                </div>
+                <div class="card-image"><img src="img/anticuchos.jpeg" alt="Anticuchos"></div>
+                <div class="card-section">
+                    <p>El origen de este popular platillo limeño, se remonta al periodo del incanato, donde el término quechua con el que se le conocía era “Antikuchu”, es decir anti: andes y kuchu: corte.
+
+Posteriormente, con la llegada de los españoles, la carne de llama fue reemplazada por la de res, sazonada con ajo y atravesada en pequeños trozos en palitos en forma de brochetas.</p>
+                </div>
+                <div class="row card-section">
+                    <div class="small-2 medium-1 columns"><img class="img-circle" src="img/user2.jpg" alt="Perfil"></div>
+                    <div class="small-10 medium-11 columns"><textarea name="comentario">Comentario</textarea></div>
+                </div>
+            </article>
+        </section>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
+
 </html>

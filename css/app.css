@@ -1,0 +1,38 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+sidebar {
+    background: #FFF;
+}
+
+section {
+    background: #931634;
+}
+
+h1 {
+    font-size: 24px;
+    color: #931634;
+}
+h2 {
+    font-size: 22px;
+    color: #C84B96;
+}
+h5 {
+    font-size: 15px;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.date {
+    opacity: 0.5;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
